@@ -1,0 +1,89 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the whole page */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header section */
+header {
+    background-image: url('header-bg.jpg'); /* Replace with your image */
+    background-size: cover;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the hero section */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+h2 {
+    color: #007acc;
+}
+
+/* Style the features section */
+.feature {
+    text-align: center;
+    margin: 20px;
+}
+
+.feature i {
+    font-size: 36px;
+    color: #007acc;
+}
+
+/* Style the pricing section */
+.pricing-plan {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Style the contact form */
+form label, form input, form textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Style buttons */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Style the footer section */
+footer {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
